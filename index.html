@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst Shop</title>
+    <!--tailwind and daisy ul  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- lato google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/d12d4f7b2a.js" crossorigin="anonymous"></script>
+<!-- tailwind custom color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body class="font-lato">
+    <header class="max-w-screen-x1 mx-auto mt-10">
+        <!-- navbar -->
+        <nav class="px-5">
+            <div class="navbar px-5 flex flex-row-reverse lg:flex-row py-2 lg:py-4 lg:px-12 rounded-full bg-primary-color justify-between">
+                <div class="lg:navbar-start lg:w-3/4">
+                    <div class="dropdowon">
+                        <ul class="hidden px-1 lg:block spae-x-6">
+                            <li class="inline-block text-white cursor-pointer"><a>Home</a></li>
+                        </ul>
+                    <label tabindex="0" class="text-white lg:hidden cursor-pointer text-x1 me-1">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content absolute top-9 right-1 bg-base-100 rounded-box w-52">
+                    <li class="inline-block  cursor-pointer"><a>Home</a></li>
+                    <li class="inline-block  cursor-pointer"><a>Home</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+        </nav>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
